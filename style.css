@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+img{
+    max-width: 100%;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -42,6 +45,7 @@ nav{
     align-items: center;
     color: #fff;
     height: 100vh;
+    margin-bottom: 20px;
 }
 .banner-img{
     width: 100%;
@@ -53,11 +57,25 @@ nav{
     font-size: 40px;
     margin-bottom: 10px;
 }
-.banner-text button{
+button{
     background-color:red;
     color: #fff;
     padding: 12px 30px;
     border: none;
     margin-top: 15px;
 
+}
+/* about section here */
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    margin: 0 100px;
+}
+.about-img{
+    width: 100%;
+}
+.about-text{
+    margin-left: 100px;
 }
